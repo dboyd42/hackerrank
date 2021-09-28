@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+
 # This code used a linked-list without a tail.
 class Solution:
     def display(self,head):
@@ -27,5 +28,4 @@ class Solution:
             # Insert new node at tail
             current.next = newNode
         return self.head
-
 
